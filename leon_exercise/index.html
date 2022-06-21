@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+<body>
+	<div id="container">
+
+    <input type="text" id="space" value="kahming">
+    <button id="btn1">copy name</button>
+    <br><br>
+
+    <input type="number" id ="space2" value="123456789">
+    <button id="btn2">copy passssword</button>
+   <br><br>
+    <textarea id="pasteText" cols="60" rows="5" placeholder="Place your text here Ah Leon~~~"></textarea>
+    </div>
+
+<script type="text/javascript">
+const space = document.getElementById("space");
+const btn1 = document.getElementById("btn1");
+const space2 = document.getElementById("space2");
+const btn2 = document.getElementById("btn2");
+
+    btn1.onclick=function (){
+
+        space.select();
+
+
+
+        document.execCommand("Copy"); 
+    };
+
+     btn2.onclick=function (){
+
+        space2.select();
+
+
+
+        document.execCommand("Copy"); 
+    };
+
+	
+
+</script>
+</body>
+</html>
