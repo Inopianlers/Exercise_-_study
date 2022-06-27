@@ -1,0 +1,103 @@
+body {
+    background-color: #12131d;
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+.Rectangle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+/* width: 500px;
+height: 300px; */
+background-color: #181835;
+
+display: flex;
+}
+
+.Header {
+    width: 119%;
+    padding: 19px 4px 23px 3px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: -3px;
+}
+
+.Text_Container{
+    
+    margin: 54px 145px 27px 58px;
+}
+
+span {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Title {
+    color: #c145da;
+}
+
+.Content {
+    width: 306px;
+    font-size: 10px;
+    /* padding: 5px 11px; */
+    font-weight: 200 !important;
+    word-spacing: 2px;
+    margin-bottom: 68px;
+    letter-spacing: 1px;
+}
+
+.footer {
+    display: flex;
+}
+
+/* .footer_1 {
+    width: 10px;
+}
+
+.footer_2 {
+    
+}
+
+.footer_3 {
+    width: -354px;
+} */
+
+.foo_container {
+    display: flex;
+    padding: 17px 4px;
+}
+
+.gen{
+    padding-right: 10px;
+}
+
+.dos {
+    font-size: 12px;
+                    font-weight: 200;
+                    text-transform: uppercase;
+                    word-spacing: 10px;
+}
+
+.Gross {
+    font-size: 20px;
+                    font-weight: 500;
+}
+
+.foo_two {
+    padding: 0px 57px;
+}
+
+.overlay {
+    width: 50.9%;
+    height: 100%;
+    background: #74009e;
+    opacity: 0.5;
+    position: absolute;
+    left: 522px;
+}
