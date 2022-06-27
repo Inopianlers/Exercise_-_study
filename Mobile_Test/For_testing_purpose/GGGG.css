@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+.active{
+	color: #fff;
+	background-color: #393290;
+}
+
+
+nav { bottom: 298px;
+    display: flex;
+    justify-content: center;
+    margin: 214px;
+
+}
+
+
+
+a {
+	text-decoration: none;
+	color: red;
+}

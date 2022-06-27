@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lalala</title>
+	<link rel="stylesheet" type="text/css" href="GGGG.css">
+</head>
+<body>
+
+	<nav >
+		<ul id="wow">
+			<li>
+				<a class ="btn" href="Ape.html">Google</a>
+			</li>
+			<li>
+				<a class ="btn" href="apple.html">Youtube</a>
+			</li>
+			<li>
+				<a class ="btn" href="flower.html">y8</a>
+			</li>
+			<li>
+				<a class ="btn active" href="#">Home</a>
+			</li>		
+		</ul>
+	</nav>
+
+	<script type="text/javascript">
+
+		var header = document.getElementById("wow");
+		var btns = header.getElementsByClassName("btn");
+		for (var i = 0; i < btns.length; i++) {
+		  btns[i].addEventListener("click", function() {
+		  var current = document.getElementsByClassName("active");
+		  current[0].className = current[0].className.replace(" active", "");
+		  this.className += " active";
+		  });
+		}
+	</script>
+
+
+</body>
+</html>
